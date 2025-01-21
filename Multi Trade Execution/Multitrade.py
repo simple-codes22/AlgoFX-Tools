@@ -76,11 +76,6 @@ def close_all_trades():
     for position in positions:
         close_trade(position.ticket)
 
-# def close_all_orders():
-#     orders = mt5.orders_get()
-#     for order in orders:
-#         close_trade(order.ticket)
-
 
 
 def main():
